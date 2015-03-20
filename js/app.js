@@ -1,5 +1,5 @@
 angular.module('Druponic', ['ionic', 'Druponic.controllers', 'Druponic.services', 'Druponic.directives'])
-    .constant('apiEndpoint', 'http://xuchang.wechat.secenter.cn//')
+    .constant('apiEndpoint', 'http://qijiannan.wechat.secenter.cn:1983/')
     .run(function ($ionicPlatform, apiEndpoint, $http, $ionicModal, $rootScope, $ionicViewService) {
     })
     .config(function ($stateProvider, $urlRouterProvider) {
