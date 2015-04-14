@@ -56,7 +56,12 @@ angular.module('Druponic', ['ionic', 'Druponic.controllers', 'Druponic.services'
             .state('address', {
                 url: "/address",
                 templateUrl: "template/address.html"
-            });
+            })
+            .state('solo-exhibition', {
+                url: "/solo-exhibition",
+                templateUrl: "template/solo-exhibition.html"
+            })
+        ;
 
         $urlRouterProvider.otherwise('/page/homepage/1');
 
